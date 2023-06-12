@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Card = ({title, text, image}) => {
+const Card = ({title, text, image, className, BtnColor}) => {
   return (
-    <div className="card">
+    <div className={`card ${className}`}>
       <div className="cardImg">
         <img src={image} alt={image} className='image' />
       </div>
@@ -13,7 +13,7 @@ const Card = ({title, text, image}) => {
         <p>{text}</p>
     </div>
     <div className="cardButton">
-      <button>Learn More</button>
+      <button className='button' style={{color: `${BtnColor}`}}>Learn More</button>
     </div>
   </div>
   )

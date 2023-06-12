@@ -1,6 +1,67 @@
 #root {
-  max-width: 1280px;
+  max-width: 375px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  text-align: left;
+}
+
+.App{
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  border-radius: .5rem;
+}
+/* .App:nth-child(1){
+  border-radius: .5rem;
+  background-color: blue;
+} */
+.card{
+  border-radius: .5rem;
+  background-color: #ff6600;
+  padding: 3rem;
+  margin-bottom: -.7rem;
+}
+.cardTitle{
+  color: hsl(0, 0%, 95%);
+  font-size: 1.5rem;
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+.cardText{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 1rem;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+.button{
+  background-color: hsl(0, 0%, 95%);
+  color: #ff6600;
+  font-size: 1rem;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.sedan{
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(31, 77%, 52%);
+}
+.suv{
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(184, 100%, 22%);
+}
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(179, 100%, 13%);
 }
