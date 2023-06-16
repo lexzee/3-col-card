@@ -12,7 +12,6 @@ function App() {
       text: 'Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.',
       image: sedan,
       className: 'sedan',
-      color: 'hsl(31, 77%, 52%)'
     },
     {
       id: 2,
@@ -20,7 +19,6 @@ function App() {
       text: 'Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.',
       image: suv,
       className: 'suv',
-      color: 'hsl(184, 100%, 22%)'
     },
     {
       id: 3,
@@ -28,7 +26,6 @@ function App() {
       text: 'Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.',
       image: luxury,
       className: 'luxury',
-      color: 'hsl(179, 100%, 13%)'
     }
   ];
 
@@ -39,7 +36,6 @@ function App() {
       text={card.text}
       image={card.image}
       className={card.className}
-      BtnColor={card.color}
     />
   })
   return (

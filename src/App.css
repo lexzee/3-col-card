@@ -37,23 +37,31 @@
   margin: 0;
 }
 .button{
+  box-sizing: content-box;
   background-color: hsl(0, 0%, 95%);
-  color: #ff6600;
+  color: inherit;
   font-size: 1rem;
   font-family: 'Lexend Deca', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: capitalize;
   border: none;
   border-radius: 2rem;
   padding: 1rem 2rem;
   margin-top: 2rem;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-in-out; */
 }
+.button:hover{
+  color: white;
+  background-color: transparent;
+  border: 3px solid white;
+  padding: 0.85rem 2rem;
+  /* font-weight: 300; */
+}
+
 .sedan{
   background-color: hsl(31, 77%, 52%);
   color: hsl(31, 77%, 52%);
-  color: green;
 }
 .suv{
   background-color: hsl(184, 100%, 22%);
