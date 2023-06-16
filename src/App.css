@@ -1,5 +1,5 @@
 #root {
-  max-width: 375px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 2rem;
   text-align: left;
@@ -11,18 +11,15 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  min-width: 320px;
   border-radius: .5rem;
 }
-/* .App:nth-child(1){
-  border-radius: .5rem;
-  background-color: blue;
-} */
 .card{
   border-radius: .5rem;
   background-color: #ff6600;
   padding: 3rem;
   margin-bottom: -.7rem;
+  min-width: 230px;
+  max-width: 230px;
 }
 .cardTitle{
   color: hsl(0, 0%, 95%);
@@ -56,6 +53,7 @@
 .sedan{
   background-color: hsl(31, 77%, 52%);
   color: hsl(31, 77%, 52%);
+  color: green;
 }
 .suv{
   background-color: hsl(184, 100%, 22%);
@@ -64,4 +62,24 @@
 .luxury{
   background-color: hsl(179, 100%, 13%);
   color: hsl(179, 100%, 13%);
+}
+
+@media(min-width: 780px){
+  .App{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .card{
+    border-radius: .5rem;
+    padding: 3rem;
+    margin-right: -.7rem;
+    box-shadow: -.3rem 0 2rem 0rem hsla(0, 0%, 0%, 0.3);
+  }
+  .cardText {
+    margin-bottom: 3rem;
+    line-height: 1.7;
+  }
 }

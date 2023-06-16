@@ -1,8 +1,8 @@
 import './App.css'
 import Card from './components/Card'
 import sedan from './images/icon-sedans.svg'
-import suv from './images/icon-sedans.svg'
-import luxury from './images/icon-sedans.svg'
+import suv from './images/icon-suvs.svg'
+import luxury from './images/icon-luxury.svg'
 
 function App() {
   const data = [
@@ -47,9 +47,9 @@ function App() {
       <div className="App">
         {cards}
       </div>
-      <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Your Name Here</a>.
+      <div className="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/lexzee">Lexzee</a>.
       </div>
     </>
   )
