@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Check solution here](https://your-solution-url.com)
-- Live Site URL: [Live site here](https://your-live-site-url.com)
+- Solution URL: [Check solution here](https://www.frontendmentor.io/solutions/3-column-preview-card-component-RKox1xsbws)
+- Live Site URL: [Live site here](https://3-col-card-lexzee.vercel.app/)
 
 ## My process
 
